@@ -27,7 +27,9 @@ body {
 	text-align: center;
 	margin-left: 40%;
 	margin-right: 40%;
-	margin-top: 250px;
+	margin-top: 140px;
+	font-size: 20px;
+	font-family:Arial;
 }
 	
 #btn_go:hover {
@@ -45,10 +47,10 @@ body {
 #logo{
 	margin-left: 38%;
 	margin-right:42%;
-	opacity: 0.5;
-	height: 0 auto;
-	width: 0 auto;
-	margin-top: 100px;
+	opacity: 0.9;
+	height: 700px;
+	width: 700px;
+	margin-top: 0px;
 }
 
 .left_bar{
@@ -58,8 +60,23 @@ body {
 	margin-bottom: 2%;
 }
 
-.left_bar1{
+
+.menu_button{
 	height: 10%;
 	width: 20%;
 	background-color: rgba(255,255,255,0.5);
-	
+	border: 0px;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+.menu_button:hover {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(105,7,7,0.9);
+}
+.menu_button:active {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(63,61,61,0.7);
