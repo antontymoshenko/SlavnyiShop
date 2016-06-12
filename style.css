@@ -6,6 +6,11 @@ body {
      background-size: cover;
 	}
 
+#imglogo{
+	max-width: 100%;
+    height: 60%;
+}
+	
 #info{
 	height: 10%;
 	width: 100%;
@@ -13,7 +18,7 @@ body {
 }
 	
 #main{
-	height: 80%;
+	height: 100%;
 	width: 100%;
 	background-color: rgba(255,255,255,0);
 }
@@ -45,12 +50,9 @@ body {
 }
 
 #logo{
-	margin-left: 38%;
-	margin-right:42%;
-	opacity: 0.9;
-	height: 700px;
-	width: 700px;
-	margin-top: 0px;
+	margin: 0px auto;
+	width: 99%;
+	
 }
 
 .left_bar{
@@ -80,3 +82,27 @@ body {
 	text-decoration: none;
 	color: white;
 	background-color: rgba(63,61,61,0.7);
+}
+
+.menu_button1{
+	height: 10%;
+	width: 20%;
+	background-color: rgba(255,255,255,0.8);
+	border: 0px;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+  
+  @keyframes anim_ml {
+				from {
+					opacity: 0;
+				}
+				to{
+					opacity: 1;
+				}
+			}
+			#f1_1{
+				animation: anim_ml 10s 1;
+			}
