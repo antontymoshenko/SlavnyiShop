@@ -12,7 +12,7 @@ body {
 }
 	
 #info{
-	height: 10%;
+	height: 40px;
 	width: 100%;
 	background-color: rgba(255,255,255,0.5);
 }
@@ -54,13 +54,17 @@ body {
 	width: 99%;
 	
 }
-
-.left_bar{
-	height: 10%;
-	width: 20%;
+.info_button{
+	height: 100%;
+	width: 100%;
 	background-color: rgba(255,255,255,0.5);
-	margin-bottom: 2%;
+	border: 0px;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	align: middle;
 }
+
 
 
 .menu_button{
