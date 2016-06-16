@@ -1,0 +1,66 @@
+﻿<html>
+	<head>
+		<title>Slavnyi Shop</title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	</head>
+	
+	<body>
+		<div id='info'>
+		<table width="100%">
+			<tr>
+				<td>
+				<form action="page2.html">
+				<button class='info_button' type="submit" >Store</button>
+				</form>
+				</td>
+				<td>
+				<form action="page1.html">
+				<button class='info_button' type="submit" >About Us</button>
+				</form>
+				</td>
+				<td>
+				<form action="contacts page.html">
+				<button class='info_button' type="submit" >Contacts</button>
+				</form>
+				</td>
+				<td>
+				<form action="login.html">
+					<button class='info_button' type="submit" >Log in</button>
+				</form>
+				</td>
+			</tr>
+			</table>
+		</div>
+		
+		<br><br><br>
+		<div id='main'>
+		<form action="page3.html">
+			<button class='menu_button' type="submit" >T-Shirts</button>
+		</form>
+		<form action="page4.html">
+			<button class='menu_button' type="submit" >Polo</button>
+		</form>
+		<form action="page5.html">
+			<button class='menu_button' type="submit" >Shirts</button>
+		</form>
+		<form action="page6.html">
+			<button class='menu_button' type="submit" >Sweatshirts</button>
+		</form>
+		<form action="page7.html">
+			<button class='menu_button' type="submit" >Jackets</button>
+		</form>
+		<form action="page8.html">
+			<button class='menu_button' type="submit" >Shoes</button>
+		</form>
+		<div class='center_box1'>
+		<form id="application" action=" application.php" method="POST" name=" application ">
+			<input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+			<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+			<input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+			<button class="applicationButton" type="submit" form="application">Оформить заказ </button>
+		</form>
+		</div>
+		</div>
+	</body>
+</html>
